@@ -20,7 +20,7 @@ public class Solution_7701_염라대왕의이름정렬_박준수 {
 			}
 			String s = "";
 			while (!pq.isEmpty()) {
-				String tmps = pq.poll().toString();
+				String tmps = pq.poll().str;
 				if (tmps.equals(s)) {
 					continue;
 				}
